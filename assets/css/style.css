@@ -33,13 +33,15 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  /* border: 1px #000000; */
+  border-top: 1px solid #ffffff;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
+  text-align: center;
 }
 
 .past {
@@ -69,3 +71,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
